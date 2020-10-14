@@ -1,9 +1,15 @@
-<a name="0.12.4-ghost.1"></a>
-## <small>0.12.4-ghost.1 (2020-03-12)</small>
+<a name="0.12.5-bustle"></a>
+## <small>0.12.5-bustle (2020-10-06)</small>
+
+* Backport fix for IME bug (#745) ([3c20cc9](https://github.com/bustle/mobiledoc-kit/commit/3c20cc9)), closes [#745](https://github.com/bustle/mobiledoc-kit/issues/745)
+* Pin older Node version for 0.12 release branch 💄 (#747) ([958f4cd](https://github.com/bustle/mobiledoc-kit/commit/958f4cd)), closes [#747](https://github.com/bustle/mobiledoc-kit/issues/747)
+
+<a name="0.12.4"></a>
+## <small>0.12.4 (2020-03-13)</small>
 
 * 🐛 Fixed parser plugin handling of top-level comment nodes ([96710ce](https://github.com/bustle/mobiledoc-kit/commit/96710ce))
-* code style ([a2cbc85](https://github.com/bustle/mobiledoc-kit/commit/a2cbc85))
 * code style ([11d3c5e](https://github.com/bustle/mobiledoc-kit/commit/11d3c5e))
+* code style ([a2cbc85](https://github.com/bustle/mobiledoc-kit/commit/a2cbc85))
 * Fix link tooltips for any font ([c4a0b63](https://github.com/bustle/mobiledoc-kit/commit/c4a0b63))
 * Fixed section parser handling of markup sections inside lists ([b13bebb](https://github.com/bustle/mobiledoc-kit/commit/b13bebb))
 * Fixed spaces added by section parser from newlines in html ([ac5f673](https://github.com/bustle/mobiledoc-kit/commit/ac5f673))
@@ -135,6 +141,7 @@
 * add tests for dom and section parser ignoring blank markup sections ([100c5fb](https://github.com/bustle/mobiledoc-kit/commit/100c5fb))
 * Added more failing tests for 648 ([2eed96e](https://github.com/bustle/mobiledoc-kit/commit/2eed96e))
 * do not group consecutive list sections of different types ([45e4d27](https://github.com/bustle/mobiledoc-kit/commit/45e4d27))
+* Drop Safari from the base testem ([f1486a6](https://github.com/bustle/mobiledoc-kit/commit/f1486a6))
 * Ensure empty (clickable) section when no mobiledoc is given to Editor ([bcf4639](https://github.com/bustle/mobiledoc-kit/commit/bcf4639))
 * Export MOBILEDOC_VERSION & mobiledocRenderers from index ([acbb829](https://github.com/bustle/mobiledoc-kit/commit/acbb829))
 * failing test for #656 ([4bcbec6](https://github.com/bustle/mobiledoc-kit/commit/4bcbec6)), closes [#656](https://github.com/bustle/mobiledoc-kit/issues/656) [#656](https://github.com/bustle/mobiledoc-kit/issues/656)
@@ -670,8 +677,8 @@
 * Update changelog ([9e50f5b](https://github.com/bustle/mobiledoc-kit/commit/9e50f5b))
 * update demo to use ember-mobiledoc-dom-renderer ^0.4.0 ([a1e7cf4](https://github.com/bustle/mobiledoc-kit/commit/a1e7cf4))
 * update readme release instructions ([deb69f3](https://github.com/bustle/mobiledoc-kit/commit/deb69f3))
-* Update README.md ([60b0b4f](https://github.com/bustle/mobiledoc-kit/commit/60b0b4f))
 * Update README.md ([89a17ad](https://github.com/bustle/mobiledoc-kit/commit/89a17ad))
+* Update README.md ([60b0b4f](https://github.com/bustle/mobiledoc-kit/commit/60b0b4f))
 * Use keypress event to enter text ([2701e71](https://github.com/bustle/mobiledoc-kit/commit/2701e71))
 * v0.9.0-beta.1 ([5768110](https://github.com/bustle/mobiledoc-kit/commit/5768110))
 * chore(package): update dependencies ([b9bb08d](https://github.com/bustle/mobiledoc-kit/commit/b9bb08d))
@@ -713,8 +720,8 @@
 * editor#serialize accepts version parameter ([e27bf9b](https://github.com/bustle/mobiledoc-kit/commit/e27bf9b))
 * https URLs for placeholder ([1d2b96d](https://github.com/bustle/mobiledoc-kit/commit/1d2b96d))
 * Migrate cursor API usage over to range ([b56aa16](https://github.com/bustle/mobiledoc-kit/commit/b56aa16))
-* Update changelog ([2667468](https://github.com/bustle/mobiledoc-kit/commit/2667468))
 * Update changelog ([4aeaedb](https://github.com/bustle/mobiledoc-kit/commit/4aeaedb))
+* Update changelog ([2667468](https://github.com/bustle/mobiledoc-kit/commit/2667468))
 * Update README.md ([6e972dd](https://github.com/bustle/mobiledoc-kit/commit/6e972dd))
 * Update README.md ([94bb0a3](https://github.com/bustle/mobiledoc-kit/commit/94bb0a3))
 * Use `node.contains` instead of checking element.parentNode in mutations ([ea9c849](https://github.com/bustle/mobiledoc-kit/commit/ea9c849))
@@ -1494,8 +1501,8 @@
 * mucho trabajo ([2304dc3](https://github.com/bustle/mobiledoc-kit/commit/2304dc3))
 * new transpiler to remove amd ([874115f](https://github.com/bustle/mobiledoc-kit/commit/874115f))
 * Only reference runtime in demo ([1926c95](https://github.com/bustle/mobiledoc-kit/commit/1926c95))
-* overhaul gulp build system. Include compiler in build ([5e39bb2](https://github.com/bustle/mobiledoc-kit/commit/5e39bb2))
 * overhaul gulp build system. Include compiler in build ([3105470](https://github.com/bustle/mobiledoc-kit/commit/3105470))
+* overhaul gulp build system. Include compiler in build ([5e39bb2](https://github.com/bustle/mobiledoc-kit/commit/5e39bb2))
 * parse dom node, not innerHTML ([e77c366](https://github.com/bustle/mobiledoc-kit/commit/e77c366))
 * Pass version number and sections payload on mobiledocs ([148735b](https://github.com/bustle/mobiledoc-kit/commit/148735b))
 * Post nodes no longer store closed and open, but all their markups ([0f69dc1](https://github.com/bustle/mobiledoc-kit/commit/0f69dc1))
@@ -1543,8 +1550,8 @@
 * Update LICENSE year, owners ([442740f](https://github.com/bustle/mobiledoc-kit/commit/442740f))
 * Update MOBILEDOC.md ([e9a5d42](https://github.com/bustle/mobiledoc-kit/commit/e9a5d42))
 * Update README ([9d417f0](https://github.com/bustle/mobiledoc-kit/commit/9d417f0))
-* Update README.md ([504adbe](https://github.com/bustle/mobiledoc-kit/commit/504adbe))
 * Update README.md ([0b9222d](https://github.com/bustle/mobiledoc-kit/commit/0b9222d))
+* Update README.md ([504adbe](https://github.com/bustle/mobiledoc-kit/commit/504adbe))
 * Update renderers ([f775642](https://github.com/bustle/mobiledoc-kit/commit/f775642))
 * update server stuff ([3a01391](https://github.com/bustle/mobiledoc-kit/commit/3a01391))
 * update to work with broccoli multi builder 0.2.2, bring in loader.js to tests ([a0c5c56](https://github.com/bustle/mobiledoc-kit/commit/a0c5c56))
